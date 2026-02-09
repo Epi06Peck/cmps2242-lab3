@@ -1,0 +1,10 @@
+# Go binaries
+*.exe
+*.out
+*.test
+
+# macOS junk
+.DS_Store
+
+# Go build cache
+/bin/
