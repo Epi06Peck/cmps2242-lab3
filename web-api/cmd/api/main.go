@@ -41,6 +41,7 @@ func main() {
 	mux.HandleFunc("/about", about)
 	mux.HandleFunc("/timeH", timeHandler)
 	mux.HandleFunc("/greeting", greeting)
+	mux.HandleFunc("/quote", quote)
 
 	log.Print("Starting Server on port 4000")
 	err := http.ListenAndServe(":4000", mux)
